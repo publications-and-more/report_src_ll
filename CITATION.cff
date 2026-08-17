@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Papers, Models, and Preprints.
+message: Papers et al from Publications And More.
+type: software
+authors:
+  - given-names: Amlal
+    family-names: El Mahrouss
+    email: amlal@nekernel.org
+identifiers:
+  - type: url
+    value: 'https://amlal.nekernel.org'
+    description: Papers, Preprints, and Models
+repository-code: 'https://github.com/publications-and-more/report_src'
+url: 'https://amlal.nekernel.org'
+abstract: >-
+  This repository contains papers, notes, preprints, and models from Publications And More. Citation is required for usage.
+keywords:
+  - cs
+  - physics
+  - mathematics
+  - abstract-algebra
+  - differential-geometry
+  - topology
+  - machine-learning
+  - differential-equations
+license: CC-BY-SA-4.0
+

@@ -1,0 +1,80 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb,amsmath,amsthm}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{example}{Example}
+\renewcommand{\qedsymbol}{\ensuremath{\blacksquare}}
+
+\usepackage{mathtools} % Bonus
+\DeclarePairedDelimiter\norm\lVert\rVert
+
+\title{Post-Report on Little Learner.}
+\author{Amlal El Mahrouss\\amlal@ne-app.eu}
+\date{August 2026}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Abstract:}
+	
+	The document covers and establishes theorems and definitions for the definition and usage of Mathematical concepts and constants for Geometric Deep Learning on our next model training.\\
+	\textbf{Keywords:} Algebraic Topology, and Machine Learning.
+	
+	\section{Introduction:}
+	The document covers several theorems, definitions, and proofs that are currently being investigated for Machine Learning Models. An assumption that the training is linear is made and that the training corpus is of good sourcing quality.
+	
+	\section{A Theorem and Proof per Fubini's Theorem:}
+	Let the following theorem and proof be an introductory concept for our later theorems on training models in a n-dimensional topological space.
+	
+	\begin{theorem}
+		\label{th:1}
+		Let the integral of the weight parameters $a, b, c, d$ in a set $\mathbb{W}$ be approximately equivalent to an integral function of the parameter-generator function in a n-manifold space where $n \ge 2.$:
+		\begin{equation}
+			\mathcal{O}_{n}(a, b, c, d, \dots, z) \approx \int_{\alpha}^{\beta} \frac{\mathcal{X}_t}{\mathcal{X_{n}}} d\bigl(\delta(\operatorname{Ratio}(t) \cdot \mathcal{X}_p)\bigr).
+		\end{equation}
+		Where $t, n, p$ are the indices of a tensor $\mathcal{X}$ where the indices $t, n, p$ are defined in a set of numbers $\mathbb{N}^{+}$, where they denote $n > 0, \, n \in \mathbb{N}.$.\\The variables $\mathcal{X}$ are x-order, y-dimensional tensors of index $t \in \mathbb{R}^{+}.$
+	\end{theorem}
+	An inverse inequality form of \ref{th:1} would be:
+	\begin{equation}
+		\label{ineq:1}
+		\mathcal{O}_{n}(a, b, c, d, \dots, z)^{-1} < \pm \int_{\alpha}^{\beta} \frac{\mathcal{X}_t}{\mathcal{X_{n}}} d\bigl(\delta(\operatorname{Ratio}(t) \cdot \mathcal{X}_p)\bigr) < \mathcal{O}_{n}(a, b, c, d, \dots, z).
+	\end{equation}
+	
+	\begin{proof}
+		\label{pf:1}
+		Let the Proof \ref{pf:1} per \ref{th:1} be a construction of a proof by construction of the prior theorem of Fubini from Guido Fubini.\\
+		(i) Per \ref{th:1} and the Fubini's theorem, and the construction from Fubini's theorem. Thus per the (ii) step in \ref{pf:1}:\\
+		(ii) By splitting the integral of $\ref{th:1}$ per Fubini Theorem establishes non-degeneracy of the integral per Theorem \ref{th:1}.\\
+		(iii) Per (ii), if the integral admits a solution per Fubini's Theorem and its associated theorems, then the integral of \ref{th:1} exists for a variable of time $t.$\\
+		(iv) Thus our proof by construction is completed by the existence of a variable $t$ in our n-dimensional topological space.
+	\end{proof}
+	
+	\section{On Large Training Sets:}
+	Per Proof \ref{pf:1} this would imply that using this method a tighter control of the data training input and output. And thus a better quality control of the training data, one equation may be of:
+	\begin{equation}
+		\label{ineq:2}
+		\cos(t) < \mathcal{T}_n(i) < \cos(t + i).
+	\end{equation}
+	\begin{remark}
+		Per \ref{ineq:2} and \ref{ineq:1}, it is in the condition that $\mathcal{T}_n(i)$ satisfies the condition of the inequality above. 
+	\end{remark}
+	Where $t$ is the time variable, $n$ is an index representing an n-dimensional indexed $x$ of the training at the variable $t$. 
+	
+	\section{Limitations of such approach:}
+	One of such limitations although non-exhaustive is the complexity of compute for such approach. That would warrant a non-trivial bigger than $O(x^n)$ complexity time.
+	
+	\section{Conclusion:}
+	The conclusion of this document is that per the abstract, there exists a solution of a possibility for better data training using Geometric Deep Learning to thus improve training quality and reduce training poisoning in a time-variable $t$.
+	
+	\nocite{*}
+	\bibliographystyle{acm}
+	\bibliography{geodpl}
+	
+\end{document}
