@@ -1,7 +1,5 @@
-An Attempt to Formalize LittleLearner.
-======================================
-
-N.B. Currently being reviewed.
+A repository for open-access project reports.
+=============================================
 
 Copyright 2026, Amlal El Mahrouss and Ne.app, all rights reserved.
 
